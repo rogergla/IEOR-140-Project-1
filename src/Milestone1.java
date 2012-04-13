@@ -15,7 +15,7 @@ public class Milestone1 {
         Button.waitForAnyPress();
         Delay.msDelay(2000);
 
-        OurPilot pilot = new OurPilot(5.6f,12.5f);
+        Pilot1 pilot = new Pilot1(5.6f,12.5f);
 
         for (int i = 0; i < 8; i++) {
             pilot.travel(90);

@@ -4,13 +4,13 @@ import lejos.nxt.*;
  * 
  * @author Team 3
  */
-public class OurPilot {
+public class Pilot1 {
 
 	boolean clockwise;
 	float track_width;
 	float diameter;
 
-	public OurPilot(float diameter, float track_width) {
+	public Pilot1(float diameter, float track_width) {
 		this.track_width = track_width;
 		this.diameter = diameter;
 
